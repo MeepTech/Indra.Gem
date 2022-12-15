@@ -186,8 +186,8 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "Indra.Gem",
+    "appId": "indra.gem.meep.tech",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -245,8 +245,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "meeptech",
+      "repo": "Indra.Gem"
     }
   },
   "devEngines": {
@@ -263,7 +263,7 @@
   "keywords": [
     "electron",
     "indra",
-    "web".
+    "web",
     "net",
     "choose",
     "your",
