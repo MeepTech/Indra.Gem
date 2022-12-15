@@ -6,6 +6,14 @@ module.exports = {
     'import/no-unresolved': 'error',
     // Since React 17 and typescript 4.1 you can safely disable the rule
     'react/react-in-jsx-scope': 'off',
+    'react/static-property-placement': ['error', "property assignment", {
+      childContextTypes: "static getter",
+      contextTypes: "static getter",
+      contextType: "static getter",
+      displayName: "static getter",
+      propTypes: "static getter",
+      defaultProps: "static getter"
+    }],
   },
   parserOptions: {
     ecmaVersion: 2020,

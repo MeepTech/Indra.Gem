@@ -1,31 +1,27 @@
 {
-  "description": "A foundation for scalable desktop apps",
-  "keywords": [
-    "electron",
-    "boilerplate",
-    "react",
-    "typescript",
-    "ts",
-    "sass",
-    "webpack",
-    "hot",
-    "reload"
-  ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "name": "indra-gem",
+  "version": "0.0.1",
+  "description": "A Client for the Indra Multiplayer Worldbuilding Text Game.",
+  "homepage": "https://github.com/MeepTech/Indra.Map",
   "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
+    "url": "https://github.com/MeepTech/Indra.Map/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git+https://github.com/MeepTech/Indra.Map.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "name": "Meep.Tech",
+    "email": "meepdottech@gmail.com",
+    "url": "http://meep.tech"
   },
   "contributors": [
+    {
+      "name": "Meep",
+      "email": "meepdottech@gmail.com",
+      "url": "http://meep.tech"
+    },
     {
       "name": "Amila Welihinda",
       "email": "amilajack@gmail.com",
@@ -117,6 +113,7 @@
     "electron-updater": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-grid-layout": "^1.3.4",
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
@@ -129,6 +126,7 @@
     "@types/node": "18.7.6",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "@types/react-grid-layout": "^1.3.2",
     "@types/react-test-renderer": "^18.0.0",
     "@types/terser-webpack-plugin": "^5.0.4",
     "@types/webpack-bundle-analyzer": "^4.4.2",
@@ -251,9 +249,6 @@
       "repo": "electron-react-boilerplate"
     }
   },
-  "collective": {
-    "url": "https://opencollective.com/electron-react-boilerplate-594"
-  },
   "devEngines": {
     "node": ">=14.x",
     "npm": ">=7.x"
@@ -264,5 +259,43 @@
       "src/main/**"
     ],
     "logLevel": "quiet"
-  }
+  },
+  "keywords": [
+    "electron",
+    "indra",
+    "web".
+    "net",
+    "choose",
+    "your",
+    "own",
+    "adventure",
+    "react",
+    "live",
+    "coding",
+    "scripting",
+    "rooms",
+    "links",
+    "plugins",
+    "mods",
+    "worldbuilding",
+    "social",
+    "network",
+    "federated",
+    "self",
+    "hosted",
+    "free",
+    "open",
+    "source",
+    "foss",
+    "world",
+    "building",
+    "typescript",
+    "ts",
+    "sass",
+    "webpack",
+    "client",
+    "app",
+    "desktop",
+    "mobile"
+  ]
 }
